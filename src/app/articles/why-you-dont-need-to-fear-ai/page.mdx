@@ -1,0 +1,53 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import handyman from './old_handyman_holding_a_hammer.png'
+
+export const article = {
+  author: 'Adam Wathan',
+  date: '2022-09-05',
+  title: 'Why You Don\'t Need to Fear AI',
+  description:
+    'Once you understand this key truth, you\'ll never be scared of AI again.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Like a wrench, or a power drill, or a hammer, AI is but a tool.
+
+<Image src={handyman} alt="a wise handyman" />
+
+Years ago, a factory owner was forced to shut down production when a critical piece of machinery would not start. Every minute of downtime cost the factory thousands of dollars in lost revenue.
+
+The factory engineer, and the foreman were stumped. In desperation, the owner turned to the factory's recently retired handyman for help.
+
+He listened to the engineer’s description of the problem and asked a few questions.
+
+He looked at the mass of twisting conduit, listened to the thump and grind of internal gears, and felt the vibrations with his hands. 
+
+He hummed to himself, reached into his toolbox and retrieved a small hammer.
+
+He tapped on the gearbox one time. And, immediately, the entire factory line roared to life. The handyman went home.
+
+Days later, the factory owner received a bill from the handyman for $5000.
+
+The owner was incredulous and demanded an itemized invoice. The entire "repair" took less than 15 minutes.
+
+This is what he received:
+
+|Description                   |Cost     |
+|------------------------------|-------: |
+|Labor and Tools: Hammer (x1)  |    $5.00|
+|Knowing where to tap          |$4,995.00|
+|Total                         |$5,000.00|
+
+The owner happily paid.
+
+AI tools are the hammer. ***A very heavy hammer.***
+But, without the knowledge to deploy it properly, knowing which questions to ask, *knowing where to tap*, you're only making noise.
+
+Stop worrying about AI, and start worrying about being an expert in your field.

@@ -1,0 +1,88 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import barbarian from './JS-Barbarian.png'
+
+export const article = {
+  author: 'Tony Geiser',
+  date: '2023-10-16',
+  title: 'When You Don\'t Need Javascript',
+  description:
+    'Don\'t make Javascript a hammer!',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+If you're only tool is a hammer, you’ll try to beat every problem like a nail.
+
+<Image src={barbarian} alt="a javascript barbarian" />
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+These days, javascript can do so much, it’s tempting to use it for everything. But, HTML and CSS haven’t been standing still. There’s a growing list of UI functions you can accomplish with no javascript whatsoever.
+
+These are some of my favorites.
+
+## Sidebar on Hover
+A sidebar that appears only when hovered over can be implemented only using css:
+
+```
+nav {
+  position: 'absolute';
+  right: 100%;
+  transition: 0.2s transform;
+}
+
+nav:hover,
+nav:focus-within {
+  transform: translateX(100%);
+}
+```
+This code is creates a navigation menu (a hidden state), and when a user hovers over it or it receives focus (e.g., when it's tabbed into using the keyboard), it slides in from the right, becoming visible. The transition property ensures that this movement is animated smoothly over a 0.2-second duration.
+
+This does everything you would do with javascript with the CSS you already had to write.
+
+## Sticky Stuff
+Use `position: sticky` to stick to an element:
+```
+.some-element {
+ position: sticky;
+ top: 2em;
+}
+```
+
+Most everyone knows this by now. But, you'll still find plenty of javascript tutorials showing devs how to make elements sticky with Javascript.
+
+Don't be that guy.
+
+## Accordion menu
+Using the `<details>` tag you can implement a simple folding accordion:
+
+```
+<details>
+  <summary>Accordion</summary>
+  <p>1</p>
+  <p>2</p>
+</details>
+```
+
+<details>
+  <summary>Accordion</summary>
+  <p>1</p>
+  <p>2</p>
+</details>
+
+The content within the `<summary>` tag will always be displayed. Clicking it will render, or hide all of the other elements within the tag. Although this cannot create special animation effects, if you just want to do a common expand and collapse function, using HTML tags is enough.
+
+## Color Picker
+Color pickers can be implemented using one line of HTML:
+
+```<input type="color" value="#00FF00">```
+
+This is what wil render: <input type="color" value="#00FF00"></input>
+
+The advantage of this method is its performance and maintainability are very good. The downside is that the color picker can't be customized (*except for the initial color*).
+
+***
