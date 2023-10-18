@@ -12,37 +12,9 @@ const projects = [
   {
     name: 'The Markdown Demo',
     description:
-      'A markdown demo to show the framework\'s fantastic use in awesome technical documentation',
+      'A markdown demo to show the framework\'s application for technical documentation. Also, here\'s what I can do with it, if you need a tech writer.',
     link: { href: 'https://markdown-demo.netlify.app/', label: 'The Markdown Demo' },
     logo: markdownLogo,
-  },
-  {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
   },
 ]
 
@@ -66,7 +38,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Things I’ve made."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      intro="If you're going to get on your high horse and tell people to build things, you should probably build something yourself. These are my attempts."
     >
       <ul
         role="list"
