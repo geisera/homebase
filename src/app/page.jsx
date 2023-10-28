@@ -12,10 +12,7 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import mandsIcon from '@/images/logos/mandsIcon.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import atWork from '@/images/photos/at-work.jpg'
 import family from '@/images/photos/family.jpg'
 import doMore from '@/images/photos/do-more.jpg'

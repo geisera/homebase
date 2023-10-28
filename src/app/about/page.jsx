@@ -66,13 +66,7 @@ export default function About() {
             </p>
             <p>
               I believe we live in a golden age.
-              Never before has so much been available to so many.
-              With such a vast amount of technology and knowledge available to the common man, 
-              it seems a sin not to put it to use.
-
-            </p>
-            <p>
-              That is what I hope to accomplish here.
+              Never has so much power been in the hands of so many.
               Let&apos;s put these technologies together in cool and interesting ways.
               Let&apos;s show them what a little talent and hardwork can do.
             </p>
