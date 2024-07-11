@@ -7,6 +7,7 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import markdownLogo from '@/images/logos/markdownIcon.svg'
+import AI from '@/images/logos/AI.svg'
 
 const projects = [
   {
@@ -21,7 +22,7 @@ const projects = [
     description:
       'Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI',
     link: { href: 'https://mands-handbook.netlify.app/', label: 'An AI EMployee Handbook' },
-    logo: markdownLogo,
+    logo: AI,
   },
 ]
 
