@@ -173,7 +173,7 @@ function Resume() {
   let resume = [
     {
       company: 'M&S Consulting',
-      title: 'Salesforce Developer, CPQ Specialist',
+      title: 'Salesforce Developer, CPQ Specialist, OmniStudio Consultant',
       logo: mandsIcon,
       start: '2022',
       end: {
