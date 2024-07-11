@@ -16,6 +16,13 @@ const projects = [
     link: { href: 'https://markdown-demo.netlify.app/', label: 'The Markdown Demo' },
     logo: markdownLogo,
   },
+  {
+    name: 'My First AI Project',
+    description:
+      'Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI',
+    link: { href: 'https://mands-handbook.netlify.app/', label: 'An AI EMployee Handbook' },
+    logo: markdownLogo,
+  },
 ]
 
 function LinkIcon(props) {
