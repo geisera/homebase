@@ -16,7 +16,7 @@ const projects = [
     name: 'tonygeiser.io',
     description:
       'A personal website where I hope to record some of things I learn. You\'re there now.',
-    link: { href: 'https://tonygeiser.io/', label: 'The Markdown Demo' },
+    link: { href: 'https://tonygeiser.io/', label: 'tonygeiser.io' },
     logo: TONYLogo,
   },
   {
