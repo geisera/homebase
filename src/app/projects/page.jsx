@@ -8,7 +8,7 @@ import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import markdownLogo from '@/images/logos/markdownIcon.svg'
 import AI from '@/images/logos/AI.svg'
-import TonyLogo from '@/images/logos/TONYLogo.svg'
+import TONYLogo from '@/images/logos/TONYLogo.svg'
 
 
 const projects = [
