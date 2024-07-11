@@ -8,8 +8,17 @@ import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import markdownLogo from '@/images/logos/markdownIcon.svg'
 import AI from '@/images/logos/AI.svg'
+import TonyLogo from '@/images/logos/TONYLogo.svg'
+
 
 const projects = [
+  {
+    name: 'tonygeiser.io',
+    description:
+      'A personal website where I hope to record some of things I learn. You\'re there now.',
+    link: { href: 'https://tonygeiser.io/', label: 'The Markdown Demo' },
+    logo: TONYLogo,
+  },
   {
     name: 'The Markdown Demo',
     description:
